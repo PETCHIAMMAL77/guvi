@@ -1,0 +1,11 @@
+v=int(input())
+am=0
+tep=v
+while(tep>0):
+  digit=tep%10
+  am+=digit**3
+  tep//=10
+if(v==am):
+  print("yes")
+else:
+  print("no")
